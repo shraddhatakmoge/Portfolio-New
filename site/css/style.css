@@ -255,16 +255,18 @@ section>.wrap{
   border:1px solid var(--line)
 }
 
+/* SMALLER CAPABILITY BOX */
+
 .fig .stack{
   position:absolute;
-  left:-35px;
-  right:15px;
-  bottom:-8px;
+  left:-18px;
+  right:95px;
+  bottom:-20px;
   background:color-mix(in srgb,var(--bg) 80%,transparent);
   backdrop-filter:blur(16px);
-  border-radius:28px;
+  border-radius:22px;
   border:1px solid var(--line);
-  padding:10px
+  padding:7px
 }
 
 .stack{
@@ -305,11 +307,11 @@ section>.wrap{
 }
 
 .fig .layer{
-  padding:12px 18px
+  padding:11px 15px
 }
 
 .fig .layer p{
-  font-size:16px
+  font-size:15px
 }
 
 
@@ -930,8 +932,9 @@ dialog .sub{
   }
 
   .fig .stack{
-    left:-15px;
-    right:5px
+    left:-10px;
+    right:70px;
+    bottom:-18px
   }
 
 }
@@ -978,9 +981,9 @@ dialog .sub{
   }
 
   .fig .stack{
-    left:10px;
-    right:10px;
-    bottom:-20px
+    left:15px;
+    right:85px;
+    bottom:-18px
   }
 
   .grid,
@@ -1082,11 +1085,18 @@ dialog .sub{
   }
 
   .fig .stack{
-    bottom:-24px
+    left:10px;
+    right:55px;
+    bottom:-20px;
+    padding:6px
   }
 
   .layer{
     padding:14px 16px
+  }
+
+  .fig .layer{
+    padding:9px 12px
   }
 
   .fig .layer p{
